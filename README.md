@@ -21,7 +21,7 @@ docker compose up
 ### 本地端
 
 ```shell
-cd ./app
+(在bocounty資料夾中執行)
 flask run -h 0.0.0.0 -p 8000
 ```
 
