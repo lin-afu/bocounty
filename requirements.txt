@@ -1,0 +1,7 @@
+Flask
+PyMySQL
+PyJWT
+eventlet
+Flask-SocketIO
+Flask-SQLAlchemy
+SQLAlchemy==1.4.46

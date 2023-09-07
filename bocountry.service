@@ -1,0 +1,12 @@
+[Unit]
+Description=gunicorn daemon
+
+[Service]
+Type=simple
+RuntimeDirectory=gunicorn
+WorkingDirectory=/home/pony076152340/bocounty
+ExecStart=/usr/bin/gunicorn -w 4 -b 0.0.0.0:80 'app:create_app()'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

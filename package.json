@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "bable": "babel --watch jsx --out-dir ./src/js --presets @babel/preset-react",
+    "tailwindcss": "tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "prettier": "2.8.7",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0"
+  }
+}

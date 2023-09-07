@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  bocountry:
+    build: .
+    container_name: bocountry
+    tty: true
+    ports:
+      - "8000:8000"

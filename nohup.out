@@ -1,0 +1,970 @@
+Server initialized for threading.
+/var/www/html/bocounty/bocountry.sqlite True
+check
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://140.128.101.247:8000
+Press CTRL+C to quit
+123.240.6.21 - - [28/May/2023 06:06:26] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:06:39] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:06:39] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:14:34] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:14:34] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:19:20] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:19:20] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:19:22] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:19:22] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:19:31] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:19:31] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:19:34] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:19:34] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:20:30] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:20:30] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:20:46] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:20:46] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:20:56] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:20:56] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:20:59] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:20:59] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:25:30] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:25:30] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:25:59] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:25:59] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:26:06] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:26:06] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:26:18] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:26:18] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:26:27] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:26:27] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:27:24] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:27:24] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:27:27] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:27:27] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:27:31] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:27:31] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:27:35] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:27:35] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:29:47] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:29:47] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:29:48] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:29:48] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:29:51] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:29:51] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:29:52] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:29:52] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:07] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:07] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:08] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:08] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:13] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:13] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:14] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:14] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:34] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:34] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:35] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:35] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:38] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:38] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:39] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:39] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:47] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:47] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:48] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:48] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:53] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:53] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:54] "POST /changeUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:55] "POST /changeUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:57] "POST /changeUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:58] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:30:58] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:30] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:30] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:32] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:32] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:42] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:42] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:43] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:43] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:47] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:47] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:48] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:48] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:52] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:52] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:52] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:52] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:54] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:55] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:55] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:36:55] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:44:50] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:44:50] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:44:52] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:44:52] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:00] "POST /changeUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:01] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:01] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:03] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:03] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:06] "POST /changeUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:08] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:08] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:26] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:26] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:32] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:39] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:39] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:41] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:41] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:44] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:46] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:46] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:47] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:47] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:45:49] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:48:57] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:48:57] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:49:00] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:49:02] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:49:02] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:49:07] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:51:24] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:51:24] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:51:27] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:51:29] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:51:29] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:51:31] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:52:43] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:52:43] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:52:48] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:52:48] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:52:50] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:53:18] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:53:21] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:53:21] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:53:25] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:53:25] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:53:29] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:57:10] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:57:10] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 06:57:14] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:04:13] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:04:13] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:04:15] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:08:08] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:08:08] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:08:10] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:09:39] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:09:39] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:09:42] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:14:26] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:14:26] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:14:29] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:18:46] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:18:46] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:18:48] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:19:23] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:19:25] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:19:25] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:20:55] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:22:20] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:22:20] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:22:22] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:24:05] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:24:05] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:24:09] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:25:09] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:25:09] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:25:11] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:25:39] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:25:39] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:25:41] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:26:21] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:26:21] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:26:23] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:28:54] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:28:54] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:28:56] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:30:59] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:30:59] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:31:01] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:32:48] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:32:48] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:32:50] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:37:07] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:37:07] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:37:09] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:37:44] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:37:44] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:37:45] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:37:47] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:37:47] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:38:00] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:40:52] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:40:52] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:40:54] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:43:24] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:43:24] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:43:27] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:46:49] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:46:49] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:46:51] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:48:08] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:48:08] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:48:10] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:48:19] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:48:19] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:48:22] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:51:28] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:51:28] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:51:30] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:52:13] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:52:13] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:52:15] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:56:24] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:56:24] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:56:26] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:56:30] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:56:30] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:56:47] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:57:08] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:57:08] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 07:57:09] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:03:03] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:03:03] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:03:05] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:03:25] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:03:25] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:03:27] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:04:05] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:04:05] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:04:07] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:08:12] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:08:12] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:08:14] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:08:19] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:08:19] "GET /getUserInfo HTTP/1.1" 200 -
+Server initialized for threading.
+/var/www/html/bocounty/bocountry.sqlite True
+check
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://140.128.101.247:8000
+Press CTRL+C to quit
+123.240.6.21 - - [28/May/2023 08:14:05] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:14:09] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:14:09] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:14:14] "POST /drawCards HTTP/1.1" 200 -
+Server initialized for threading.
+/var/www/html/bocounty/bocountry.sqlite True
+check
+ * Debug mode: off
+Address already in use
+Port 8000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+123.240.6.21 - - [28/May/2023 08:18:41] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:18:45] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:18:45] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:18:48] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:19:40] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:20:13] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:23:21] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:23:21] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:23:58] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:24:00] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:24:00] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:24:07] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:24:10] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:24:10] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:24:13] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:25:44] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:25:44] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:25:46] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:26:44] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:26:44] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:26:47] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:27:07] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:27:07] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:27:09] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:27:55] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:27:55] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:27:57] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:06] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:06] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:08] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:09] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:09] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:12] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:12] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:13] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:13] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:18] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:18] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:39] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:39] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:41] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:41] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:49] "POST /changeUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:50] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:28:50] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:29:00] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:29:00] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:29:06] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:29:06] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:29:11] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:29:11] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:30:39] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:30:39] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:30:58] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:30:58] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:32:59] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:32:59] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:34:21] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:34:21] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:35:09] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:35:09] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:35:46] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:35:46] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:35:48] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:35:48] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:35:51] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:35:51] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:07] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:07] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:10] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:10] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:12] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:12] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:15] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:16] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:16] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:18] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:18] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:21] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:36:21] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:37:32] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:37:32] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:37:36] "POST /Logoff HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:37:42] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:37:44] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:37:44] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:37:45] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:37:45] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:44:31] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:44:33] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:44:34] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:44:34] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:44:34] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:46:58] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:46:59] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:46:59] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:47:00] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:47:00] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:47:34] "POST /changeUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:48:27] "POST /changeUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:48:30] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:48:30] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:48:35] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:48:35] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:51:17] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:51:17] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:51:19] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 08:51:19] "GET /getUserInfo HTTP/1.1" 200 -
+165.22.8.94 - - [28/May/2023 08:58:30] "GET / HTTP/1.0" 404 -
+165.22.8.94 - - [28/May/2023 08:58:32] code 400, message Bad HTTP/0.9 request type ('l\x00')
+165.22.8.94 - - [28/May/2023 08:58:32] "l\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:33] "GET /nice%20ports,/Trinity.txt.bak HTTP/1.0" 404 -
+165.22.8.94 - - [28/May/2023 08:58:33] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+165.22.8.94 - - [28/May/2023 08:58:33] "\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:35] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+165.22.8.94 - - [28/May/2023 08:58:35] "\x04\x01\x00\x16\x7f\x00\x00\x01root\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:35] code 400, message Bad request syntax ('#ST')
+165.22.8.94 - - [28/May/2023 08:58:35] "#ST" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:37] code 400, message Bad HTTP/0.9 request type ('\x00')
+165.22.8.94 - - [28/May/2023 08:58:37] "\x00\x0bn\x00\x00\x00\x00\x01\x04beio" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:39] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+165.22.8.94 - - [28/May/2023 08:58:39] "\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:39] "OPTIONS / HTTP/1.0" 404 -
+165.22.8.94 - - [28/May/2023 08:58:40] code 400, message Bad request version ('RTSP/1.0')
+165.22.8.94 - - [28/May/2023 08:58:40] "OPTIONS / RTSP/1.0" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:42] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+165.22.8.94 - - [28/May/2023 08:58:42] "\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:43] code 400, message Bad HTTP/0.9 request type ('\x00')
+165.22.8.94 - - [28/May/2023 08:58:43] "\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:45] code 400, message Bad HTTP/0.9 request type ('\x00')
+165.22.8.94 - - [28/May/2023 08:58:45] "\x00\x0c\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:45] code 400, message Bad request syntax ('HELP')
+165.22.8.94 - - [28/May/2023 08:58:45] "HELP" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:46] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+165.22.8.94 - - [28/May/2023 08:58:46] "\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+165.22.8.94 - - [28/May/2023 08:58:46] "\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie: mstshash=beio" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:47] code 400, message Bad request version ('\x00/\x00')
+165.22.8.94 - - [28/May/2023 08:58:47] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:47] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+165.22.8.94 - - [28/May/2023 08:58:47] "\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:49] code 400, message Bad request version ('0.12\x00')
+165.22.8.94 - - [28/May/2023 08:58:49] "\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:50] code 400, message Bad request syntax ('\x01default')
+165.22.8.94 - - [28/May/2023 08:58:50] "\x01default" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:50] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+165.22.8.94 - - [28/May/2023 08:58:50] "0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:52] code 400, message Bad HTTP/0.9 request type ('0')
+165.22.8.94 - - [28/May/2023 08:58:52] "0\x0c\x02\x01\x01`\x07\x02\x01\x02\x04\x00\x80\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:52] code 400, message Bad request version ('SIP/2.0')
+165.22.8.94 - - [28/May/2023 08:58:52] "OPTIONS sip:nm SIP/2.0" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:54] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+165.22.8.94 - - [28/May/2023 08:58:54] "TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:56] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+165.22.8.94 - - [28/May/2023 08:58:56] "\x03\x00\x00\x0b\x06à\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:58] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+165.22.8.94 - - [28/May/2023 08:58:58] "DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:58:59] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+165.22.8.94 - - [28/May/2023 08:58:59] ":\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x1f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:01] code 400, message Bad request syntax ('JRMI\x00\x02K')
+165.22.8.94 - - [28/May/2023 08:59:01] "JRMI\x00\x02K" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:03] code 400, message Bad request version ('\x00{\x00\x00\x00\x00\x00A\x00A\x00\x00\x00-\x00\x00A\x00\x00\x00-\x00\x00\x00a\x00\x00-\x00A\x00A\x00\x00A\x00-\x00\x00\x00\x00\x00A\x00\x00A\x00A\x00\x00A\x00A\x00\x00}\x00\x00\x00àmß_')
+165.22.8.94 - - [28/May/2023 08:59:03] "\x01\x00\x00ýÎú\x0b° \x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x00\x00.\x00\x00.\x02\x009\x008\x00\x00;\x00 \x00{\x00\x00\x00\x00\x00A\x00A\x00\x00\x00-\x00\x00A\x00\x00\x00-\x00\x00\x00a\x00\x00-\x00A\x00A\x00\x00A\x00-\x00\x00\x00\x00\x00A\x00\x00A\x00A\x00\x00A\x00A\x00\x00}\x00\x00\x00àmß_" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:05] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+165.22.8.94 - - [28/May/2023 08:59:05] "\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00 \x00:\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04æ\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00(CONNECT_DATA=(COMMAND=version))" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:06] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+165.22.8.94 - - [28/May/2023 08:59:06] "\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00\x0c\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:08] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+165.22.8.94 - - [28/May/2023 08:59:08] "\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:10] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+165.22.8.94 - - [28/May/2023 08:59:10] "GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:11] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01ÿÿ\x00\x01none\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+165.22.8.94 - - [28/May/2023 08:59:11] "\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01ÿÿ\x00\x01none\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:13] code 400, message Bad request syntax ('\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00')
+165.22.8.94 - - [28/May/2023 08:59:13] "\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:15] code 400, message Bad request syntax ('\x03\x81\x00\x00\x00\x00\x00_@\x00\x017\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe\x00SessionType=Discovery\x00AuthMethod=None\x00\x00')
+165.22.8.94 - - [28/May/2023 08:59:15] "\x03\x81\x00\x00\x00\x00\x00_@\x00\x017\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe\x00SessionType=Discovery\x00AuthMethod=None\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:17] code 400, message Bad request version ('CharruaVista')
+165.22.8.94 - - [28/May/2023 08:59:17] "\x01\x00\x00\x00\x00Í\x00\x01\x00\x00ANY-SCP\x00\x00\x00\x00\x00\x00\x00\x00\x00FINDSCU\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x151.2.840.10008.3.1.1.1 \x00\x00.\x01\x00\x00\x000\x00\x00\x111.2.840.10008.1.1@\x00\x00\x111.2.840.10008.1.2P\x00\x00:Q\x00\x00\x04\x00\x00@\x00R\x00\x00\x1e1.2.826.0.1.3680043.2.1396.999U\x00\x00\x0cCharruaVista" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:17] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+165.22.8.94 - - [28/May/2023 08:59:17] "\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie: mstshash=Administrator" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:19] code 400, message Bad request syntax ('\x00\x00\x00\x00\x00')
+165.22.8.94 - - [28/May/2023 08:59:19] "\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.22.8.94 - - [28/May/2023 08:59:19] code 400, message Bad request syntax ('\x01I20100')
+165.22.8.94 - - [28/May/2023 08:59:19] "\x01I20100" HTTPStatus.BAD_REQUEST -
+123.240.6.21 - - [28/May/2023 09:50:26] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:50:26] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:50:28] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:50:28] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:50:31] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:50:31] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:50:33] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:50:33] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:50:42] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:50:42] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 09:58:18] "POST /Login HTTP/1.1" 200 -
+178.128.40.20 - - [28/May/2023 10:16:55] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03sºU\x1b5³<Ùäé²Ã/\x1aóêyù;¿+©Ì§#ó\x97\x07ð¾\x82m\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+178.128.40.20 - - [28/May/2023 10:16:55] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03sºU\x1b5³<Ùäé²Ã/\x1aóêyù;¿+©Ì§#ó\x97\x07ð¾\x82m\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+178.128.40.20 - - [28/May/2023 10:16:56] code 400, message Bad request version ('À\x14À')
+178.128.40.20 - - [28/May/2023 10:16:56] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x8f\x90HÊ\x03\x80Ð-Ü½y\x0dµe\x1fê\x0cºÊ3lÎ¼\x0f# \x98\x88ÃêÉ(\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+178.128.40.20 - - [28/May/2023 10:16:56] "GET / HTTP/1.1" 404 -
+178.128.40.20 - - [28/May/2023 10:16:57] code 400, message Bad request version ('À\x14À')
+178.128.40.20 - - [28/May/2023 10:16:57] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¦­hxsWö\x09\x16PÌQm_\x94Ð\x95u6á|âlÚ/·\x86\x9a\x03m\x9bñ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+178.128.40.20 - - [28/May/2023 10:16:57] "GET /api/islogged HTTP/1.1" 404 -
+123.240.6.21 - - [28/May/2023 10:47:59] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:47:59] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:50:02] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:50:02] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:50:33] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:50:33] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:50:35] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:50:35] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:50:46] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:50:46] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 10:54:39] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 11:13:37] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 11:29:45] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 11:29:45] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 11:37:18] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 11:37:18] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 11:49:35] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 11:49:35] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 11:51:42] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 11:53:06] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 12:15:08] "POST /Login HTTP/1.1" 200 -
+185.180.143.97 - - [28/May/2023 12:31:47] code 400, message Bad request syntax ('\x80.\x01\x00\x02\x00\x15\x00\x00\x00\x10\x05\x00\x80\x03\x00\x80\x01\x00\x80\x07\x00À\x06\x00@\x04\x00\x80\x02\x00\x801d\x01åz\x8bÜ"¦È$ùÆw×\x06')
+185.180.143.97 - - [28/May/2023 12:31:47] "\x80.\x01\x00\x02\x00\x15\x00\x00\x00\x10\x05\x00\x80\x03\x00\x80\x01\x00\x80\x07\x00À\x06\x00@\x04\x00\x80\x02\x00\x801d\x01åz\x8bÜ"¦È$ùÆw×\x06" HTTPStatus.BAD_REQUEST -
+47.92.138.86 - - [28/May/2023 16:56:07] code 400, message Bad request syntax ('nil')
+47.92.138.86 - - [28/May/2023 16:56:07] "nil" HTTPStatus.BAD_REQUEST -
+47.92.138.86 - - [28/May/2023 16:56:10] "GET / HTTP/1.0" 404 -
+47.92.138.86 - - [28/May/2023 16:56:11] "GET / HTTP/1.1" 404 -
+47.92.138.86 - - [28/May/2023 16:56:14] "GET /sitemap.xml HTTP/1.1" 404 -
+47.92.138.86 - - [28/May/2023 16:56:14] "GET /robots.txt HTTP/1.1" 404 -
+Server initialized for threading.
+/var/www/html/bocounty/bocountry.sqlite True
+check
+ * Debug mode: off
+Address already in use
+Port 8000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+123.240.6.21 - - [28/May/2023 23:22:38] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 23:23:31] "POST /Logoff HTTP/1.1" 200 -
+134.208.58.76 - - [28/May/2023 23:23:44] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 23:28:38] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 23:29:32] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [28/May/2023 23:29:32] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:04:23] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:04:24] "POST /Login HTTP/1.1" 200 -
+185.142.236.36 - - [29/May/2023 00:04:29] "GET / HTTP/1.1" 404 -
+185.142.236.36 - - [29/May/2023 00:04:32] "GET /favicon.ico HTTP/1.1" 404 -
+1.200.58.164 - - [29/May/2023 00:04:32] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:04:32] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:04:34] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:04:34] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:04:40] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:04:40] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:04:44] "POST /changeUserInfo HTTP/1.1" 200 -
+179.43.177.244 - - [29/May/2023 00:15:53] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+179.43.177.244 - - [29/May/2023 00:15:53] "Z¥\x01 \x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+1.200.58.164 - - [29/May/2023 00:30:33] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:30:36] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:30:36] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:30:48] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:31:00] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:31:02] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:31:02] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:31:12] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:31:14] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:38:26] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:38:26] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:43:54] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:43:54] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:01] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:03] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:03] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:08] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:12] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:12] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:30] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:30] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:40] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:46] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 00:44:46] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:03:05] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:03:15] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:03:15] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:11:20] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:11:23] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:11:23] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:11:34] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:11:34] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:11:36] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:12:29] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:12:29] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:13:01] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:13:03] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:13:03] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:13:41] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:13:51] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:13:56] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:13:56] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:14:01] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:14:02] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:14:02] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:14:17] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:14:17] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:14:29] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:14:48] "POST /Register HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:15:03] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:15:06] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:15:06] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:15:12] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:15:12] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:16:16] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:16:27] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:16:39] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:29:04] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:29:12] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:29:12] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:29:16] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:29:16] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:29:27] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:29:31] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:29:31] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:30:51] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:30:51] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:34:18] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:34:37] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:34:37] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:34:40] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:34:45] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:34:45] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:00] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:09] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:12] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:12] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:16] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:16] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:20] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:23] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:23] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:30] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:30] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:32] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:32] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:36] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:39] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:37:39] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:38:18] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:38:18] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:38:22] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:39:24] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:39:24] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:39:29] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:39:29] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:39:30] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:39:30] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:39:54] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:39:55] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:39:55] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:40:08] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 01:40:22] "POST /changeUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:54:40] "POST /Login HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:54:41] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:54:41] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:44] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:48] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:48] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:49] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:49] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:51] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:55] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:55] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:57] "POST /drawCards HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:59] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:56:59] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:02] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:04] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:04] "GET /listPool HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:07] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:07] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:08] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:08] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:20] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:20] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:23] "GET /getUserOutlook HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:23] "GET /getUserItem HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:26] "GET /getUserInfo HTTP/1.1" 200 -
+123.240.6.21 - - [29/May/2023 01:57:26] "GET /getUserOutlook HTTP/1.1" 200 -
+45.40.56.4 - - [29/May/2023 02:00:49] code 400, message Bad request version ('À\x14À')
+45.40.56.4 - - [29/May/2023 02:00:49] "\x16\x03\x01\x01\x09\x01\x00\x01\x05\x03\x03Ê#´ÑQVbÀ\x88ú^Ï\x80£-Æ\x11#ùe\x19ÿM\x15ífÃ²Rc¬\x8f â\x7fj;µö\x1aöÜz{8R¼5\x07ï\x83f\x16pS\x18W[\x8a&\x89¥\x8f\\\x8d\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+45.40.56.4 - - [29/May/2023 02:01:01] "GET / HTTP/1.1" 404 -
+45.40.56.4 - - [29/May/2023 02:01:03] "GET /favicon.ico HTTP/1.1" 404 -
+45.40.56.4 - - [29/May/2023 02:01:05] "GET /robots.txt HTTP/1.1" 404 -
+45.40.56.4 - - [29/May/2023 02:01:08] "GET /sitemap.xml HTTP/1.1" 404 -
+1.200.58.164 - - [29/May/2023 09:05:45] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:05:48] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:05:48] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:05:54] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:06:04] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:06:33] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:06:34] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:06:35] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:06:36] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:06:39] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:06:50] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:06:54] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:01] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:04] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:04] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:11] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:11] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:16] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:16] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:23] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:25] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:25] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:29] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:34] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:34] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:41] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:42] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:07:42] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:08:06] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:08:06] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:08:07] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:08:07] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:08:29] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:08:31] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:08:31] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:08:39] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:08:56] "POST /Register HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:09:09] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:09:20] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:09:20] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:09:21] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:09:21] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:09:25] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:09:25] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:09:37] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:10:12] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:15] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:42] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:44] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:44] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:47] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:47] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:51] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:52] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:52] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:56] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:56] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:57] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:11:57] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:12:01] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:12:02] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:12:02] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:12:26] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:12:29] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:12:29] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:14:47] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:14:59] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:15:02] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 09:15:02] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:09:56] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:53:11] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:53:15] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:53:15] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:53:17] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:53:20] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:53:20] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:54:12] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:21] "POST /Register HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:34] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:36] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:36] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:41] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:43] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:44] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:44] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:49] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:49] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:53] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:58:53] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:03] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:32] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:34] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:34] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:37] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:39] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:39] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:41] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:41] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:42] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:42] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:55] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:56] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 11:59:56] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:00:19] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:22:41] "POST /Register HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:03] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:06] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:06] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:16] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:16] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:20] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:22] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:30] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:30] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:41] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:42] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:42] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:46] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:47] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:49] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:51] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:51] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:55] "GET /getPoolItemList/1 HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:58] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:23:58] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:24:03] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:24:06] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:24:06] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:24:08] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:24:08] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:24:09] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:24:09] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:24:13] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:24:13] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 12:26:25] "POST /Logoff HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:01:42] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:01:47] "POST /Login HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:08] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:08] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:13] "POST /drawCards HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:17] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:17] "GET /listPool HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:20] "GET /getUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:20] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:22] "POST /changeUserInfo HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:26] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:26] "GET /getUserItem HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:33] "POST /changeUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:34] "GET /getUserOutlook HTTP/1.1" 200 -
+1.200.58.164 - - [29/May/2023 13:02:35] "GET /getUserInfo HTTP/1.1" 200 -
+198.235.24.183 - - [29/May/2023 13:52:50] "GET / HTTP/1.1" 404 -
+64.62.197.127 - - [29/May/2023 18:37:13] "GET / HTTP/1.1" 404 -
+64.62.197.125 - - [29/May/2023 18:37:47] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+64.62.197.133 - - [29/May/2023 18:37:50] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+35.195.93.98 - - [30/May/2023 01:02:54] "GET / HTTP/1.1" 404 -
+139.59.174.192 - - [30/May/2023 03:40:29] code 400, message Bad request version ('À\x14À')
+139.59.174.192 - - [30/May/2023 03:40:29] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ôd;Æè\x7fj\x121:Tß¶\x88\x09òê¿Î\x10NX»\x94\x86é"\x97}¡3Å\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.174.192 - - [30/May/2023 03:40:30] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03²\x06h\x8c¼fþû³áä¼úçÞ»\x8eÖ\x0eÅ\x04\x8dí÷És"°?R÷l\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+139.59.174.192 - - [30/May/2023 03:40:30] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03²\x06h\x8c¼fþû³áä¼úçÞ»\x8eÖ\x0eÅ\x04\x8dí÷És"°?R÷l\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.174.192 - - [30/May/2023 03:40:30] "GET / HTTP/1.1" 404 -
+139.59.174.192 - - [30/May/2023 03:40:31] code 400, message Bad request version ('À\x14À')
+139.59.174.192 - - [30/May/2023 03:40:31] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03AÁ\x1e1Âa\x10§>Ò\x99Òø6\x0cÄk\x12a¤\x05\x8bÅ!4c¥\x13\x9c\x93Úk\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.174.192 - - [30/May/2023 03:40:31] "GET /api/islogged HTTP/1.1" 404 -
+167.71.4.10 - - [30/May/2023 05:02:38] "GET / HTTP/1.1" 404 -
+87.236.176.79 - - [30/May/2023 09:35:23] "GET / HTTP/1.1" 404 -
+198.235.24.180 - - [30/May/2023 09:51:22] "GET / HTTP/1.1" 404 -
+167.94.145.59 - - [30/May/2023 10:52:06] "GET / HTTP/1.1" 404 -
+167.94.145.59 - - [30/May/2023 10:52:06] "GET / HTTP/1.1" 404 -
+167.94.145.59 - - [30/May/2023 10:52:07] code 505, message Invalid HTTP version (2.0)
+167.94.145.59 - - [30/May/2023 10:52:07] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+43.129.33.99 - - [30/May/2023 11:33:53] code 400, message Bad request version ('À\x13À')
+43.129.33.99 - - [30/May/2023 11:33:53] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+43.129.33.99 - - [30/May/2023 11:34:04] "GET / HTTP/1.1" 404 -
+209.141.49.169 - - [30/May/2023 12:11:46] "GET / HTTP/1.1" 404 -
+162.142.125.225 - - [30/May/2023 13:29:48] "GET / HTTP/1.1" 404 -
+162.142.125.225 - - [30/May/2023 13:29:49] code 505, message Invalid HTTP version (2.0)
+162.142.125.225 - - [30/May/2023 13:29:49] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+184.105.247.238 - - [30/May/2023 16:13:22] "GET / HTTP/1.1" 404 -
+103.203.57.20 - - [30/May/2023 21:32:53] "GET / HTTP/1.1" 404 -
+179.43.177.244 - - [30/May/2023 21:33:19] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+179.43.177.244 - - [30/May/2023 21:33:19] "Z¥\x01 \x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+45.135.232.17 - - [30/May/2023 21:40:16] code 400, message Bad request syntax ('\x01\x01æ')
+45.135.232.17 - - [30/May/2023 21:40:16] "\x01\x01æ" HTTPStatus.BAD_REQUEST -
+205.210.31.46 - - [31/May/2023 02:15:31] "GET / HTTP/1.1" 404 -
+65.49.20.70 - - [31/May/2023 08:30:55] "GET / HTTP/1.1" 404 -
+65.49.20.114 - - [31/May/2023 08:32:15] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+162.243.11.72 - - [31/May/2023 09:11:19] "GET / HTTP/1.0" 404 -
+167.248.133.35 - - [31/May/2023 10:27:30] "GET / HTTP/1.1" 404 -
+167.248.133.35 - - [31/May/2023 10:27:30] "GET / HTTP/1.1" 404 -
+167.248.133.35 - - [31/May/2023 10:27:31] code 505, message Invalid HTTP version (2.0)
+167.248.133.35 - - [31/May/2023 10:27:31] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+146.190.119.114 - - [31/May/2023 14:42:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x99')
+146.190.119.114 - - [31/May/2023 14:42:12] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x99\x85\x94}®9" HTTPStatus.BAD_REQUEST -
+146.190.119.114 - - [31/May/2023 14:42:23] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03üCÁbmÎ\x9c-®\x08·ø\x1b\x12z«\x07µ3Û\x87}ù6L\x07g\x12´8p§\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+146.190.119.114 - - [31/May/2023 14:42:23] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03üCÁbmÎ\x9c-®\x08·ø\x1b\x12z«\x07µ3Û\x87}ù6L\x07g\x12´8p§\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+146.190.119.114 - - [31/May/2023 14:42:33] code 400, message Bad request version ('À\x14À')
+146.190.119.114 - - [31/May/2023 14:42:33] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x0c\x0doyÅ±ªn\x95Áa\x8b\x97x}%{6³~éý\x16=À\x92Kk¢£24\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+185.165.190.17 - - [31/May/2023 21:56:51] "GET / HTTP/1.1" 404 -
+185.165.190.17 - - [31/May/2023 21:56:52] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.145.58 - - [31/May/2023 22:48:05] "GET / HTTP/1.1" 404 -
+167.94.145.58 - - [31/May/2023 22:48:06] "GET / HTTP/1.1" 404 -
+167.94.145.58 - - [31/May/2023 22:48:06] code 505, message Invalid HTTP version (2.0)
+167.94.145.58 - - [31/May/2023 22:48:06] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+58.59.90.50 - - [01/Jun/2023 01:10:17] "GET / HTTP/1.1" 404 -
+43.128.225.197 - - [01/Jun/2023 01:55:20] "GET / HTTP/1.1" 404 -
+162.142.125.11 - - [01/Jun/2023 08:26:04] "GET / HTTP/1.1" 404 -
+162.142.125.11 - - [01/Jun/2023 08:26:04] "GET / HTTP/1.1" 404 -
+162.142.125.11 - - [01/Jun/2023 08:26:05] code 505, message Invalid HTTP version (2.0)
+162.142.125.11 - - [01/Jun/2023 08:26:05] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+139.59.89.81 - - [01/Jun/2023 09:22:44] code 400, message Bad request version ('À\x14À')
+139.59.89.81 - - [01/Jun/2023 09:22:44] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03§<\x1c;\x19Áµ\x94tlä\x83\x9eÕ\x10\x85¯\x99ÌÅ·²Å\x00Â\x89^\x9b3\x92\x18Æ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.89.81 - - [01/Jun/2023 09:22:45] code 400, message Bad request version ('À\x14À')
+139.59.89.81 - - [01/Jun/2023 09:22:45] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03<õ@lAÍØùI\x05"³9\x86O\x0ebM XãöÓó\x94\x11èJ½fdÖ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.89.81 - - [01/Jun/2023 09:22:45] "GET / HTTP/1.1" 404 -
+139.59.89.81 - - [01/Jun/2023 09:22:45] code 400, message Bad request version ('À\x14À')
+139.59.89.81 - - [01/Jun/2023 09:22:45] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x07Eq\x03\x8bH%\x15 C.¶\x0dV©¦\x88i\x88Òµ0çCý\x0c¨»\x91\x01Æ\x93\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.89.81 - - [01/Jun/2023 09:22:45] "GET /api/islogged HTTP/1.1" 404 -
+178.32.197.92 - - [01/Jun/2023 11:11:16] "GET / HTTP/1.1" 404 -
+188.165.87.99 - - [01/Jun/2023 12:52:32] "GET /favicon.ico HTTP/1.1" 404 -
+184.105.247.210 - - [01/Jun/2023 13:39:12] "GET / HTTP/1.1" 404 -
+184.105.247.194 - - [01/Jun/2023 13:40:14] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+184.105.247.206 - - [01/Jun/2023 13:40:36] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+205.210.31.67 - - [01/Jun/2023 20:06:52] "GET / HTTP/1.1" 404 -
+60.191.125.35 - - [01/Jun/2023 20:10:21] "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 -
+103.203.57.20 - - [01/Jun/2023 20:46:29] "GET / HTTP/1.1" 404 -
+167.94.138.124 - - [01/Jun/2023 22:27:13] "GET / HTTP/1.1" 404 -
+167.94.138.124 - - [01/Jun/2023 22:27:13] "GET / HTTP/1.1" 404 -
+167.94.138.124 - - [01/Jun/2023 22:27:14] code 505, message Invalid HTTP version (2.0)
+167.94.138.124 - - [01/Jun/2023 22:27:14] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+130.211.54.158 - - [01/Jun/2023 23:22:09] "GET / HTTP/1.1" 404 -
+23.251.102.74 - - [02/Jun/2023 00:22:23] "GET / HTTP/1.1" 404 -
+142.93.74.101 - - [02/Jun/2023 04:07:50] "GET / HTTP/1.0" 404 -
+142.93.74.101 - - [02/Jun/2023 04:17:45] "GET / HTTP/1.1" 404 -
+142.93.74.101 - - [02/Jun/2023 04:17:45] "GET /favicon.ico HTTP/1.1" 404 -
+198.235.24.230 - - [02/Jun/2023 09:24:10] "GET / HTTP/1.1" 404 -
+87.236.176.198 - - [02/Jun/2023 18:31:37] "GET / HTTP/1.1" 404 -
+64.62.197.11 - - [02/Jun/2023 20:30:19] "GET / HTTP/1.1" 404 -
+64.62.197.7 - - [02/Jun/2023 20:30:44] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+64.62.197.7 - - [02/Jun/2023 20:30:47] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+170.64.148.152 - - [03/Jun/2023 00:59:53] "GET / HTTP/1.1" 404 -
+167.94.138.35 - - [03/Jun/2023 06:06:00] "GET / HTTP/1.1" 404 -
+167.94.138.35 - - [03/Jun/2023 06:06:00] "GET / HTTP/1.1" 404 -
+167.94.138.35 - - [03/Jun/2023 06:06:01] code 505, message Invalid HTTP version (2.0)
+167.94.138.35 - - [03/Jun/2023 06:06:01] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+216.218.206.96 - - [03/Jun/2023 08:24:58] "GET / HTTP/1.1" 404 -
+216.218.206.76 - - [03/Jun/2023 08:26:13] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+216.218.206.120 - - [03/Jun/2023 08:26:36] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+162.216.149.96 - - [03/Jun/2023 09:57:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03EÌ')
+162.216.149.96 - - [03/Jun/2023 09:57:12] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03EÌ\x1f*\x99\x07\x97\x9dï­BJt\x11áAÕ\x04|c7Jê¢ÿz¶M" HTTPStatus.BAD_REQUEST -
+167.99.178.12 - - [03/Jun/2023 13:07:02] code 400, message Bad request version ('À\x14À')
+167.99.178.12 - - [03/Jun/2023 13:07:02] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x11lî èÙñ±7Âzc\x8fAëçW\x9f5\x141Ø³ÒÍþ\x81ô\x08½Só\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.99.178.12 - - [03/Jun/2023 13:07:02] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03C\x05\x02!¯\x9c¹\x16Ìâæ°ý\x83_©\x14Ä\x070ÍªäpÝXÌGV©\x9c4\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+167.99.178.12 - - [03/Jun/2023 13:07:02] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03C\x05\x02!¯\x9c¹\x16Ìâæ°ý\x83_©\x14Ä\x070ÍªäpÝXÌGV©\x9c4\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.99.178.12 - - [03/Jun/2023 13:07:03] "GET / HTTP/1.1" 404 -
+167.99.178.12 - - [03/Jun/2023 13:07:03] code 400, message Bad request version ('À\x14À')
+167.99.178.12 - - [03/Jun/2023 13:07:03] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x16òîâ\x02 eY}\x8coº\x80¨uÅÞ\x13î|©?6\x1dÍ?¿\x18an\x16F\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.99.178.12 - - [03/Jun/2023 13:07:04] "GET /api/islogged HTTP/1.1" 404 -
+45.135.232.17 - - [03/Jun/2023 14:09:59] code 400, message Bad request syntax ('\x01\x01æ')
+45.135.232.17 - - [03/Jun/2023 14:09:59] "\x01\x01æ" HTTPStatus.BAD_REQUEST -
+205.210.31.6 - - [03/Jun/2023 17:29:31] "GET / HTTP/1.1" 404 -
+179.60.147.13 - - [03/Jun/2023 18:12:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+179.60.147.13 - - [03/Jun/2023 18:12:27] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+179.43.177.244 - - [03/Jun/2023 21:31:12] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+179.43.177.244 - - [03/Jun/2023 21:31:12] "Z¥\x01 \x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00sscbsttstb\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00sscbsttstb\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00btXcccbtXY\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ssXcrstsYs\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00sY9tYr9st\x00\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ctXsbtsbXb\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00YsctscXcc\x00\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00btXcccbtXY\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ssXcrstsYs\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00sY9tYr9st\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ctXsbtsbXb\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ctXsbtsbXb\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00YsctscXcc\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ctXsbtsbXb\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ssXcrstsYs\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00crtcctc9Ys\x00\x00\x00\x00\x00\x00')
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ssXcrstsYs\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+161.35.64.140 - - [04/Jun/2023 07:25:59] "\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x8c@#¡B·\x12j³Ï\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00crtcctc9Ys\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+197.48.113.99 - - [04/Jun/2023 08:10:38] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+197.48.113.99 - - [04/Jun/2023 08:10:38] "\x00\x00\x00 c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+74.82.47.62 - - [04/Jun/2023 13:43:43] "GET / HTTP/1.1" 404 -
+74.82.47.26 - - [04/Jun/2023 13:44:37] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 -
+74.82.47.30 - - [04/Jun/2023 13:44:59] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+167.248.133.124 - - [04/Jun/2023 14:28:53] "GET / HTTP/1.1" 404 -
+167.248.133.124 - - [04/Jun/2023 14:28:53] "GET / HTTP/1.1" 404 -
+167.248.133.124 - - [04/Jun/2023 14:28:54] code 505, message Invalid HTTP version (2.0)
+167.248.133.124 - - [04/Jun/2023 14:28:54] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+205.210.31.236 - - [04/Jun/2023 15:28:08] "GET / HTTP/1.1" 404 -
+167.94.146.57 - - [04/Jun/2023 18:09:06] "GET / HTTP/1.1" 404 -
+167.94.146.57 - - [04/Jun/2023 18:09:07] "GET / HTTP/1.1" 404 -
+167.94.146.57 - - [04/Jun/2023 18:09:07] code 505, message Invalid HTTP version (2.0)
+167.94.146.57 - - [04/Jun/2023 18:09:07] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+193.35.18.35 - - [05/Jun/2023 01:40:52] "CONNECT google.com:443 HTTP/1.1" 404 -
+58.59.90.50 - - [05/Jun/2023 04:48:47] "GET / HTTP/1.1" 404 -
+198.235.24.236 - - [05/Jun/2023 10:27:10] "GET / HTTP/1.1" 404 -
+206.189.57.162 - - [05/Jun/2023 10:52:05] code 400, message Bad request version ('À\x14À')
+206.189.57.162 - - [05/Jun/2023 10:52:05] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03}Ï\x17­ P IÍ\x0cl¶\x0b(x¶\x11ê\x8eþG£«~\x96¥Ïé9A\x88º\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+206.189.57.162 - - [05/Jun/2023 10:52:16] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03³ÆQº\x80[Éð\x94»\x80»0¢ÂÉ\x83Ð©§\x88:<VÞ\x92]\x05\x83DY\x9f\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+206.189.57.162 - - [05/Jun/2023 10:52:16] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03³ÆQº\x80[Éð\x94»\x80»0¢ÂÉ\x83Ð©§\x88:<VÞ\x92]\x05\x83DY\x9f\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+206.189.57.162 - - [05/Jun/2023 10:52:27] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03y\x1aÞ`\x88éù{þ\x9ef-<\x13AÅÑ`¬¢Ëð\x13\x8bòTç\x95«\x99Û4\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+206.189.57.162 - - [05/Jun/2023 10:52:27] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03y\x1aÞ`\x88éù{þ\x9ef-<\x13AÅÑ`¬¢Ëð\x13\x8bòTç\x95«\x99Û4\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
