@@ -53,16 +53,7 @@ def get_coupon(id):
 
     return jsonify({
         "status": 0,
-        **dict(zip([
-            "raw_id",
-            "publisher_id",
-            "start_time",
-            "close_time",
-            "describe",
-            "price",
-            "count",
-            "name"
-        ], coupon))
+        **coupon
     })
 
 
@@ -79,22 +70,20 @@ def edit_coupon(id):
 
     columns = {"start_time", "close_time", "price", "count", "name", "describe"}
 
-    coupon_data = dict(zip(["_", "__", "start_time", "close_time", "describe", "price", "count", "name"], coupon))
-
     for key in json.keys():
         if key not in columns:
             make_error_response(APIStatusCode.Wrong_Format, reason='unknown format')
         else:
-            coupon_data[key] = json[key]
+            coupon[key] = json[key]
 
     update(
-        id=coupon[0],
-        close_time=coupon_data["close_time"],
-        start_time=coupon_data["start_time"],
-        describe=coupon_data["describe"],
-        price=coupon_data["price"],
-        count=coupon_data["count"],
-        name=coupon_data["name"]
+        id=coupon["raw_id"],
+        close_time=coupon["close_time"],
+        start_time=coupon["start_time"],
+        describe=coupon["describe"],
+        price=coupon["price"],
+        count=coupon["count"],
+        name=coupon["name"]
     )
 
     return jsonify({
@@ -126,7 +115,13 @@ def take(id):
     if coupon is None:
         return make_error_response(APIStatusCode.InstanceNotExist, reason='coupon not exist')
 
-    receive(coupon.raw_id, user.id)
+    price = coupon.get("price")
+    if user.bocoin < price:
+        return make_error_response(APIStatusCode.CoinNotEnough, "user has not enough coin")
+
+    count = coupon.get("count")
+    remain_coin = user.bocoin - price
+    receive(coupon.get("raw_id"), user.id, count, remain_coin)
 
     return jsonify({
         "status": 0,
@@ -135,12 +130,9 @@ def take(id):
 
 def get_list():
     cursor: sqlite3.Cursor = database.get_cursor()
-    cursor.execute(f"""
-        SELECT *
-        FROM 'coupon_type'
-    """)
 
-    return cursor.fetchall()
+    columns = ["raw_id", "publisher_id", "start_time", "close_time", "describe", "price", "count", "name"]
+    return [dict(zip(columns, row)) for row in cursor.execute(f"""SELECT * FROM 'coupon_type'""")]
 
 
 def find(id):
@@ -151,7 +143,13 @@ def find(id):
             WHERE raw_id = {id}
         """)
 
-    return cursor.fetchone()
+    columns = ["raw_id", "publisher_id", "start_time", "close_time", "describe", "price", "count", "name"]
+    data: tuple = cursor.fetchone()
+
+    if data is None:
+        return None
+
+    return dict(zip(columns, data))
 
 
 def create(publisher_id: str, start_time: str, close_time: str, price: int, count: int, name: str, describe: str = ''):
@@ -165,12 +163,28 @@ def create(publisher_id: str, start_time: str, close_time: str, price: int, coun
     connection.commit()
 
 
-def receive(type_id, owner_id):
+def receive(type_id, owner_id, count, price):
     connection = database.get_connection()
     cursor = connection.cursor()
     cursor.execute(f"""
             INSERT INTO Coupon (type_id, owner_id)
             VALUES ('{type_id}', '{owner_id}')
+        """)
+
+    cursor.execute(f"""
+        UPDATE account SET bocoin={price}
+        WHERE id={owner_id}
+    """)
+
+    if count == 1:
+        cursor.execute(f"""
+            DELETE FROM coupon_type 
+            WHERE raw_id={type_id}
+        """)
+    else:
+        cursor.execute(f"""
+            UPDATE coupon_type SET count = {count - 1}
+            WHERE raw_id = {type_id}
         """)
 
     connection.commit()
@@ -198,7 +212,7 @@ def delete(id: int):
     cursor = connection.cursor()
     cursor.execute(f"""
         DELETE FROM coupon_type 
-        WHERE raw_id={id};
+        WHERE raw_id={id}
     """)
 
     connection.commit()

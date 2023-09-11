@@ -4,7 +4,7 @@ from app.database import db
 from app.utils.auth_util import login_required, get_user_by_token
 from app.utils.enum_util import APIStatusCode, EquipAction
 from app.utils.respons_util import make_error_response
-from app.utils.database import get_cursor
+from app.utils.database import get_cursor, get_connection
 
 account_api = Blueprint("acc_api", __name__)
 
@@ -167,16 +167,59 @@ def change_user_outlook(*args, **kwargs):
         "status": 0
     })
 
-@account_api.route('/listCoupon', methods=['POST'])
+
+@account_api.route('/listCoupon', methods=['GET'])
 @login_required
 def get_coupon_list():
     user: Account = get_user_by_token()
     cursor = get_cursor()
 
+    column = ['id', 'name', 'describe', "close_time"]
+
+    return jsonify({
+        "status": 0,
+        "coupon": [
+            dict(zip(column, row)) for row in cursor.execute(f"""
+                SELECT coupon_type.raw_id, coupon_type.name, coupon_type.describe, coupon_type.close_time
+                FROM Coupon, coupon_type
+                WHERE 
+                    Coupon.type_id = coupon_type.raw_id AND
+                    Coupon.owner_id = '{user.id}'
+            """)
+        ]
+    })
+
+
+@account_api.route("/useCoupon/<int:id>", methods=['POST'])
+@login_required
+def use_coupon(id):
+    user: Account = get_user_by_token()
+    connection = get_connection()
+    cursor = connection.cursor()
+
     cursor.execute(f"""
-        SELECT coupon_type.name, coupon_type.describe, coupon_type.close_time
-        FROM Coupon, coupon_type
-        WHERE 
-        Coupon.type_id = coupon_type.raw_id AND
-        Coupon.owner_id = '{user.id}'
+        SELECT *
+        FROM coupon_type
+        WHERE raw_id={id}
     """)
+
+    data = cursor.fetchone()
+
+    if data is None:
+        return make_error_response(APIStatusCode.Wrong_Format, "coupon not found")
+    column = ['raw_id', 'type_id', 'owner_id']
+
+    coupon = dict(zip(column, data))
+
+    if coupon.get("owner_id") == user.id:
+        return make_error_response(APIStatusCode.InvalidAccess, "can't not access coupon")
+
+    cursor.execute(f"""
+        DELETE FROM coupon_type 
+        WHERE raw_id={id}
+    """)
+    connection.commit()
+
+    return jsonify({
+        "status": 0
+    })
