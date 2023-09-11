@@ -12,17 +12,16 @@ from flask_socketio import emit
 message_api = Blueprint("message_api", __name__)
 
 
-@message_api.route('/sendMessage', methods=["POST"])
+@message_api.route('/sendMessage/<id>', methods=["POST"])
 @login_required
-def send_message():
+def send_message(id):
     request_json: dict = request.json
-    if "chatroom_id" not in request_json.keys():
-        return make_error_response(APIStatusCode.Wrong_Format, reason="missing 'chatroom_id' argument!")
-    chatroom_id = request_json["chatroom_id"]
 
     if "content" not in request_json.keys():
         return make_error_response(APIStatusCode.Wrong_Format, reason="missing 'content' argument!")
     content = request_json["content"]
+
+    chatroom_id = id
 
     # verify chatroom exist
     involvers = db.session.query(Involve.involver_id, Order.owner_id).join(

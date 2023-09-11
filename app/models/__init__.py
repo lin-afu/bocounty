@@ -76,3 +76,20 @@ class Notification(db.Model):
     mention_id = Column(ForeignKey(Account.id))
     chatroom_id = Column(ForeignKey(Involve.chatroom_id))
     due_time = Column(String)
+
+
+class CouponType(db.Model):
+    raw_id = Column(Integer, primary_key=True, autoincrement=True)
+    name = Column(String, nullable=False)
+    describe = Column(String, nullable=False)
+    price = Column(Integer, nullable=False)
+    count = Column(Integer, nullable=False)
+    start_time = Column(String, nullable=False)
+    close_time = Column(String, nullable=False)
+    publisher = Column(ForeignKey(Account.id))
+
+
+class Coupon(db.Model):
+    raw_id = Column(Integer, primary_key=True, autoincrement=True)
+    type = Column(ForeignKey(CouponType.raw_id))
+    owner_id = Column(ForeignKey(Account.id))

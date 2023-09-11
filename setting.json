@@ -1,0 +1,9 @@
+{
+  "mail": {
+    "enable": true,
+    "host": "pony076152340@gmail.com",
+    "password": "xjoolgslkofnwgsr",
+    "port": 587,
+    "pattern": "t%s@ntut.org.tw"
+  }
+}

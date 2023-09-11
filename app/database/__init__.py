@@ -9,13 +9,10 @@ db = SQLAlchemy()
 
 def check_db():
     full_file_path = os.path.join(os.getcwd(), 'bocountry.sqlite')
-    print(full_file_path, os.path.exists(full_file_path))
-    print("check")
     return os.path.exists(full_file_path)
 
 
 def create_default_admin(student_id="123456789", name="預設管理員"):
-    print("created Admin!")
     from app.models import Account
     admin_id = uuid.uuid4().hex
     db.session.add(Account(
@@ -27,12 +24,9 @@ def create_default_admin(student_id="123456789", name="預設管理員"):
         bocoin=100
     ))
     db.session.commit()
-    print(student_id,admin_id)
 
 
 def create_db(flush=False):
-    # print("you are in here!")
-    # print("123123123",db)
     if flush or (not check_db()):
         with current_app.app_context():
             if flush:
@@ -40,6 +34,5 @@ def create_db(flush=False):
                 db.drop_all()
             print('create database')
             db.create_all()
-            # create_default_admin()
     if flush:
         create_default_admin()

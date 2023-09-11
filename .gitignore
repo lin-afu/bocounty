@@ -15,17 +15,10 @@ venv/
 
 /storage/pool
 
-
-# bocountry.sqlite
-
 package-lock.json
-
-./setting.json
 
 .python-version
 
 .vscode/
 
 test.py
-
-setting.json

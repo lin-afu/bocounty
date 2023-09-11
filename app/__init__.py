@@ -22,10 +22,8 @@ def create_app(config_filename=None):
     db.init_app(main)
 
     # from app.models import models
-    with main.app_context():
-        create_db(flush=main.config['DBFLUSH'])
-        # for i in main.config:
-        # print("--->created DB!",main.config)
+    # with main.app_context():
+    #     create_db(flush=main.config['DBFLUSH'])
 
     from app.api.auth import auth_api
     from app.api.account import account_api
@@ -33,6 +31,7 @@ def create_app(config_filename=None):
     from app.api.order import order_api
     from app.api.item import item_api
     from app.api.message import message_api
+    from app.api.coupon import coupon_api
 
     main.register_blueprint(auth_api)
     main.register_blueprint(account_api)
@@ -40,6 +39,7 @@ def create_app(config_filename=None):
     main.register_blueprint(order_api)
     main.register_blueprint(item_api)
     main.register_blueprint(message_api)
+    main.register_blueprint(coupon_api, url_prefix="/coupon")
 
     from app.utils.email_util import send_verify_email
     from app.models import Account

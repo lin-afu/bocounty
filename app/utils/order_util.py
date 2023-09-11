@@ -61,7 +61,6 @@ def verify_create_form(func):
 
         if request_json is None:
             return make_error_response(APIStatusCode.Wrong_Format, reason="request body isn't exist")
-
         try:
             payload = CreateOrderPayload(**request_json)
         except TypeError:

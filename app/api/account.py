@@ -4,6 +4,7 @@ from app.database import db
 from app.utils.auth_util import login_required, get_user_by_token
 from app.utils.enum_util import APIStatusCode, EquipAction
 from app.utils.respons_util import make_error_response
+from app.utils.database import get_cursor
 
 account_api = Blueprint("acc_api", __name__)
 
@@ -165,3 +166,18 @@ def change_user_outlook(*args, **kwargs):
     return jsonify({
         "status": 0
     })
+
+@account_api.route('/listCoupon', methods=['POST'])
+@login_required
+def get_coupon_list():
+    user: Account = get_user_by_token();
+    cursor = get_cursor()
+
+    cursor.execute(f"""
+        SELECT coupon_type.name, coupon_type.describe, coupon_type.close_time
+        FROM Coupon, coupon_type
+        WHERE 
+        Coupon.type_id = coupon_type.raw_id AND
+        Coupon.owner_id = '{user.id}'
+    """)
+

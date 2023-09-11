@@ -1,0 +1,9 @@
+{
+  "mail": {
+    "enable": false,
+    "host": "",
+    "password": "",
+    "port": 0,
+    "pattern": ""
+  }
+}
