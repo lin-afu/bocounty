@@ -170,7 +170,7 @@ def change_user_outlook(*args, **kwargs):
 @account_api.route('/listCoupon', methods=['POST'])
 @login_required
 def get_coupon_list():
-    user: Account = get_user_by_token();
+    user: Account = get_user_by_token()
     cursor = get_cursor()
 
     cursor.execute(f"""
@@ -180,4 +180,3 @@ def get_coupon_list():
         Coupon.type_id = coupon_type.raw_id AND
         Coupon.owner_id = '{user.id}'
     """)
-

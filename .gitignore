@@ -22,3 +22,5 @@ package-lock.json
 .vscode/
 
 test.py
+
+bocountry.sqlite

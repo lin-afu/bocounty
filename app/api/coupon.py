@@ -19,11 +19,35 @@ def get_all():
     })
 
 
+@coupon_api.route("/", methods=["POST"])
+@admin_required
+def add_coupon():
+    user: Account = get_user_by_token()
+    payload: dict = request.json
+    require_list = ["close_time", "start_time", "price", "count", "name"]
+    for requirement in require_list:
+        if requirement not in payload.keys():
+            return make_error_response(APIStatusCode.Wrong_Format, f"missing {requirement} column")
+
+    create(
+        publisher_id=user.id,
+        close_time=payload["close_time"],
+        start_time=payload["start_time"],
+        describe=payload.get("describe"),
+        price=payload["price"],
+        count=payload["count"],
+        name=payload["name"]
+    )
+
+    return jsonify({
+        "status": 0
+    })
+
+
 @coupon_api.route("/<int:id>", methods=["GET"])
-def get(id):
+def get_coupon(id):
     coupon = find(id)
 
-    print(coupon)
     if coupon is None:
         return make_error_response(APIStatusCode.InstanceNotExist, reason='coupon not exist')
 
@@ -42,23 +66,12 @@ def get(id):
     })
 
 
-@coupon_api.route("/add", methods=["POST"])
+@coupon_api.route("/<int:id>", methods=["PUT"])
 @admin_required
-def add():
-    user: Account = get_user_by_token()
-    payload: dict = request.json
-
-    create(publisher_id=user.id, **payload)
-    return ''
-
-
-@coupon_api.route("/edit/<id>", methods=["PUT"])
-@admin_required
-def edit(id):
+def edit_coupon(id):
     user: Account = get_user_by_token()
     coupon = find(id)
 
-    print(coupon)
     if coupon is None:
         return make_error_response(APIStatusCode.InstanceNotExist, reason='coupon not exist')
 
@@ -74,21 +87,42 @@ def edit(id):
         else:
             coupon_data[key] = json[key]
 
-    update(id=coupon[0], close_time=coupon_data["close_time"], start_time=coupon_data["start_time"],
-           describe=coupon_data["describe"], price=coupon_data["price"], count=coupon_data["count"],
-           name=coupon_data["name"])
+    update(
+        id=coupon[0],
+        close_time=coupon_data["close_time"],
+        start_time=coupon_data["start_time"],
+        describe=coupon_data["describe"],
+        price=coupon_data["price"],
+        count=coupon_data["count"],
+        name=coupon_data["name"]
+    )
+
     return jsonify({
         "status": 0
     })
 
 
-@coupon_api.route("/receive/<id>", methods=["POST"])
+@coupon_api.route("/<int:id>", methods=["DELETE"])
+@admin_required
+def delete_coupon(id):
+    coupon = find(id)
+
+    if coupon is None:
+        return make_error_response(APIStatusCode.InstanceNotExist, reason='coupon not exist')
+
+    delete(id)
+
+    return jsonify({
+        "status": 0
+    })
+
+
+@coupon_api.route("/receive/<int:id>", methods=["POST"])
 @login_required
 def take(id):
     user: Account = get_user_by_token()
     coupon = find(id)
 
-    print(coupon)
     if coupon is None:
         return make_error_response(APIStatusCode.InstanceNotExist, reason='coupon not exist')
 
@@ -155,5 +189,16 @@ def update(id: int, start_time: str, close_time: str, price: int, count: int, na
                 describe='{describe}'
                 WHERE raw_id={id}
             """)
+
+    connection.commit()
+
+
+def delete(id: int):
+    connection = database.get_connection()
+    cursor = connection.cursor()
+    cursor.execute(f"""
+        DELETE FROM coupon_type 
+        WHERE raw_id={id};
+    """)
 
     connection.commit()
